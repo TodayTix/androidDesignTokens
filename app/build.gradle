@@ -48,19 +48,33 @@ android {
     }
 
     publishing {
-        singleVariant("todaytixRelease")
+        singleVariant("todaytixDebug")
+//        singleVariant("todaytixDebug")
+//        singleVariant("goldstarDebug")
     }
 }
 
 afterEvaluate {
     publishing {
         publications {
-            todaytix(MavenPublication) {
-                from components.todaytixRelease
+            todaytixRelease(MavenPublication) {
+                from components.todaytixDebug
                 groupId = 'com.github.todaytix'
                 artifactId = 'designTokens'
                 version = '0.1'
             }
+//            todaytixDebug(MavenPublication) {
+//                from components.todaytixDebug
+//                groupId = 'com.github.todaytix'
+//                artifactId = 'designTokens'
+//                version = '0.1'
+//            }
+//            goldstarDebug(MavenPublication) {
+//                from components.todaytixDebug
+//                groupId = 'com.github.todaytix'
+//                artifactId = 'designTokens'
+//                version = '0.1'
+//            }
         }
     }
 }
