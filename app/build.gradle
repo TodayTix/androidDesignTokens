@@ -1,7 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
+
+apply plugin: 'maven-publish'
 
 android {
     compileSdk 32
@@ -26,9 +29,14 @@ android {
         }
     }
 
+    flavorDimensions += "tokens"
     productFlavors {
-        register("todaytix")
-        register("goldstar")
+        create("todaytix") {
+            dimension = "tokens"
+        }
+        create("goldstar") {
+            dimension = "tokens"
+        }
     }
 
     compileOptions {
@@ -37,6 +45,23 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    publishing {
+        singleVariant("todaytixRelease")
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            todaytix(MavenPublication) {
+                from components.todaytixRelease
+                groupId = 'com.github.todaytix'
+                artifactId = 'designTokens'
+                version = '0.1'
+            }
+        }
     }
 }
 
