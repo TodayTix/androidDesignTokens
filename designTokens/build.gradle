@@ -1,18 +1,20 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
-
+apply plugin: 'maven-publish'
 
 android {
     compileSdk 32
+    namespace = 'com.TodayTixGroup.android'
 
     defaultConfig {
-        applicationId 'com.TodayTixGroup.android'
         minSdk 21
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
 
         aarMetadata {
             minCompileSdk = 21
@@ -34,6 +36,35 @@ android {
         jvmTarget = '1.8'
     }
 
+    flavorDimensions += "tokens"
+    productFlavors {
+        create("todaytix") {
+            dimension = "tokens"
+        }
+        create("goldstar") {
+            dimension = "tokens"
+        }
+    }
+
+    publishing {
+        singleVariant("todaytixDebug")
+//        multipleVariants("all") {
+//            allVariants()
+//        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.todaytixDebug
+                groupId = 'com.TodayTixGroup.android'
+                artifactId = 'designTokens'
+                version = '0.1'
+            }
+        }
+    }
 }
 
 dependencies {
