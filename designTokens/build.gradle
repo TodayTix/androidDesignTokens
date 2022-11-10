@@ -7,7 +7,7 @@ apply plugin: 'maven-publish'
 
 android {
     compileSdk 32
-    namespace = 'com.TodayTixGroup.android'
+    namespace = 'com.TodayTixGroup.designtokens'
 
     defaultConfig {
         minSdk 21
@@ -63,7 +63,7 @@ afterEvaluate {
         publications {
             todaytix(MavenPublication) {
                 from components.todaytixDebug
-                groupId = 'com.TodayTixGroup.android'
+                groupId = 'com.TodayTixGroup.designtokens'
                 artifactId = 'designTokens'
                 version = project.version
             }
