@@ -1,0 +1,72 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+}
+apply plugin: 'maven-publish'
+
+android {
+    compileSdk 32
+    namespace = 'com.TodayTixGroup.designtokens'
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 32
+        version "0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+
+        aarMetadata {
+            minCompileSdk = 21
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    flavorDimensions "tokens"
+    productFlavors {
+        todaytix {
+            dimension = "tokens"
+        }
+        goldstar {
+            dimension = "tokens"
+        }
+    }
+
+    publishing {
+        singleVariant("todaytixDebug")
+        // TODO: when we do the work for multiple retailers, we need this
+        // to have goldstar and today be published under the same library
+//        multipleVariants("todaytix") {
+//            includeBuildTypeValues("debug", "release")
+//            includeFlavorDimensionAndValues("tokens", "todaytix")
+//        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            todaytix(MavenPublication) {
+                from components.todaytixDebug
+                groupId = 'com.TodayTixGroup.designtokens'
+                artifactId = 'designTokens'
+                version = project.version
+            }
+        }
+    }
+}

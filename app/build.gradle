@@ -1,41 +1,24 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'maven-publish'
 }
 
-apply plugin: 'maven-publish'
 
 android {
     compileSdk 32
-    namespace = 'com.todaytix.designtokens'
 
     defaultConfig {
-        applicationId "com.todaytix.designtokens"
+        applicationId 'com.TodayTixGroup.android'
         minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
-        aarMetadata {
-            minCompileSdk = 21
-        }
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-
-    flavorDimensions += "tokens"
-    productFlavors {
-        create("todaytix") {
-            dimension = "tokens"
-        }
-        create("goldstar") {
-            dimension = "tokens"
         }
     }
 
@@ -47,22 +30,6 @@ android {
         jvmTarget = '1.8'
     }
 
-    publishing {
-        singleVariant("todaytixRelease")
-    }
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            todaytix(MavenPublication) {
-                from components.todaytixRelease
-                groupId = 'com.github.todaytix'
-                artifactId = 'designTokens'
-                version = '0.1'
-            }
-        }
-    }
 }
 
 dependencies {
