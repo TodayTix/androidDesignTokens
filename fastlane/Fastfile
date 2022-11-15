@@ -42,7 +42,7 @@ platform :android do
     # Create a Github release
     set_github_release(
         repository_name: "TodayTix/androidDesignTokens",
-        api_token: "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", #ENV["GITHUB_API_TOKEN"],
+        api_token: ENV["GITHUB_API_TOKEN"],
         tag_name: version_name,
         name: version_name,
         description: changelog,
