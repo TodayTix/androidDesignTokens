@@ -50,12 +50,12 @@ workflows:
   new-version:
     jobs:
       - setup-workspace:
-        filters:
-          branches:
-            only:
-              - main
-      - create-release:
-        filters:
-          branches:
-            only:
-              - main
+          filters:
+            branches:
+              only:
+                - main
+      - create-new-release:
+          filters:
+            branches:
+              only:
+                - main
