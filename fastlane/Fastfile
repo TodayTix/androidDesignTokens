@@ -26,27 +26,28 @@ platform :android do
     last_commit = last_git_commit
     changelog = last_commit[:message]
 
-    version_name = increment_version_name
+    version_name = increment_version_name(bump_type: "minor")
+    UI.user_error!(version_name)
 
     # we need to check this version into vc but don't want
     # to trigger another circle job or we'll get stuck in a loop
-    git_commit(
-        path: ["./designTokens/build.gradle"],
-        message: "[ci skip] version bump"
-    )
-    # Tag this release
-    add_git_tag(tag: version_name)
-    # And push with tags
-    push_to_git_remote
-
-    # Create a Github release
-    set_github_release(
-        repository_name: "TodayTix/androidDesignTokens",
-        api_token: ENV["GITHUB_API_TOKEN"],
-        tag_name: version_name,
-        name: version_name,
-        description: changelog,
-    )
+#     git_commit(
+#         path: ["./designTokens/build.gradle"],
+#         message: "[ci skip] version bump"
+#     )
+#     # Tag this release
+#     add_git_tag(tag: version_name)
+#     # And push with tags
+#     push_to_git_remote
+#
+#     # Create a Github release
+#     set_github_release(
+#         repository_name: "TodayTix/androidDesignTokens",
+#         api_token: ENV["GITHUB_API_TOKEN"],
+#         tag_name: version_name,
+#         name: version_name,
+#         description: changelog,
+#     )
   end
 
 
