@@ -13,7 +13,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        version "0.1.8"
+        version "0.1.9"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -38,13 +38,13 @@ android {
         jvmTarget = '1.8'
     }
 
-    flavorDimensions "tokens"
+    flavorDimensions "retailer"
     productFlavors {
         todaytix {
-            dimension = "tokens"
+            dimension = "retailer"
         }
         goldstar {
-            dimension = "tokens"
+            dimension = "retailer"
         }
     }
 
@@ -54,7 +54,7 @@ android {
         // to have goldstar and today be published under the same library
         multipleVariants("tokens") {
             includeBuildTypeValues("debug", "release")
-            includeFlavorDimensionAndValues("tokens", "todaytix", "goldstar")
+            includeFlavorDimensionAndValues("retailer", "todaytix", "goldstar")
         }
     }
 }
