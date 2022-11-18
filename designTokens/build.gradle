@@ -13,7 +13,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        version "0.1.12"
+        version "0.1.13"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -53,12 +53,12 @@ android {
         // TODO: when we do the work for multiple retailers, we need this
         // to have goldstar and today be published under the same library
         multipleVariants("todaytix") {
-            includeBuildTypeValues("debug", "release")
+            includeBuildTypeValues("release")
             includeFlavorDimensionAndValues("retailer", "todaytix")
         }
 
         multipleVariants("goldstar") {
-            includeBuildTypeValues("debug", "release")
+            includeBuildTypeValues("release")
             includeFlavorDimensionAndValues("retailer", "goldstar")
         }
     }
