@@ -13,7 +13,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        version "0.1.9"
+        version "0.1.10"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -52,9 +52,9 @@ android {
 //        singleVariant("todaytixDebug")
         // TODO: when we do the work for multiple retailers, we need this
         // to have goldstar and today be published under the same library
-        multipleVariants("tokens") {
+        multipleVariants("todaytix") {
             includeBuildTypeValues("debug", "release")
-            includeFlavorDimensionAndValues("retailer", "todaytix", "goldstar")
+            includeFlavorDimensionAndValues("retailer", "todaytix")
         }
     }
 }
@@ -62,8 +62,8 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            tokens(MavenPublication) {
-                from components.tokens
+            todaytix(MavenPublication) {
+                from components.todaytix
                 groupId = 'com.TodayTixGroup.designtokens'
                 artifactId = 'designTokens'
                 version = project.version
