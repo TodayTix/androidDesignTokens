@@ -13,7 +13,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-        version "0.1.10"
+        version "0.1.12"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -56,6 +56,11 @@ android {
             includeBuildTypeValues("debug", "release")
             includeFlavorDimensionAndValues("retailer", "todaytix")
         }
+
+        multipleVariants("goldstar") {
+            includeBuildTypeValues("debug", "release")
+            includeFlavorDimensionAndValues("retailer", "goldstar")
+        }
     }
 }
 
@@ -65,7 +70,13 @@ afterEvaluate {
             todaytix(MavenPublication) {
                 from components.todaytix
                 groupId = 'com.TodayTixGroup.designtokens'
-                artifactId = 'designTokens'
+                artifactId = 'designTokens-todaytix'
+                version = project.version
+            }
+            goldstar(MavenPublication) {
+                from components.goldstar
+                groupId = 'com.TodayTixGroup.designtokens'
+                artifactId = 'designTokens-goldstar'
                 version = project.version
             }
         }
