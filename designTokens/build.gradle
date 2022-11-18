@@ -49,9 +49,6 @@ android {
     }
 
     publishing {
-//        singleVariant("todaytixDebug")
-        // TODO: when we do the work for multiple retailers, we need this
-        // to have goldstar and today be published under the same library
         multipleVariants("todaytix") {
             includeBuildTypeValues("release")
             includeFlavorDimensionAndValues("retailer", "todaytix")
