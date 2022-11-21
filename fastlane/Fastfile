@@ -1,0 +1,53 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Update version name and create a new release"
+  lane :create_new_release do
+    last_commit = last_git_commit
+    changelog = last_commit[:message]
+
+    version_name = increment_version_name(bump_type: "minor")
+
+    # we need to check this version into vc but don't want
+    # to trigger another circle job or we'll get stuck in a loop
+    git_commit(
+        path: ["./designTokens/build.gradle"],
+        message: "[ci skip] version bump"
+    )
+    # Tag this release
+    add_git_tag(tag: version_name)
+    # And push with tags
+    push_to_git_remote
+
+    # Create a Github release
+    set_github_release(
+        repository_name: "TodayTix/androidDesignTokens",
+        api_token: ENV["GITHUB_API_TOKEN"],
+        tag_name: version_name,
+        name: version_name,
+        description: changelog,
+    )
+  end
+
+
+end

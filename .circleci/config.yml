@@ -1,0 +1,44 @@
+references:
+  gems-key: &gems-key
+    gems-v2-{{ checksum "Gemfile.lock" }}
+
+  save-gems-cache: &save-gems-cache
+    save_cache:
+      key: *gems-key
+      paths:
+        - vendor/bundle
+
+  restore-gems-cache: &restore-gems-cache
+    restore_cache:
+      key: *gems-key
+
+  download-ruby-dependencies: &download-ruby-dependencies
+    run:
+      name: Download Ruby dependencies
+      command: make download-ruby-dependencies
+
+version: 2.1
+jobs:
+  create-new-release:
+    docker:
+      - image: circleci/android:api-30
+    environment:
+      GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:MaxPermSize=1024m -Xms512m -XX:+HeapDumpOnOutOfMemoryError"'
+    steps:
+      - checkout
+      - *restore-gems-cache
+      - *download-ruby-dependencies
+      - *save-gems-cache
+      - run:
+          name: Create new release
+          command: make create-release
+
+workflows:
+  version: 2.1
+  new-version:
+    jobs:
+      - create-new-release:
+          filters:
+            branches:
+              only:
+                - main
