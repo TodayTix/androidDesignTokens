@@ -19,7 +19,7 @@ references:
 
 version: 2.1
 jobs:
-  setup-workspace:
+  create-new-release:
     docker:
       - image: circleci/android:api-30
     environment:
@@ -29,18 +29,6 @@ jobs:
       - *restore-gems-cache
       - *download-ruby-dependencies
       - *save-gems-cache
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - ./
-
-  create-new-release:
-    docker:
-      - image: circleci/android:api-30
-    environment:
-      GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:MaxPermSize=1024m -Xms512m -XX:+HeapDumpOnOutOfMemoryError"'
-    steps:
-      - checkout
       - run:
           name: Create new release
           command: make create-release
@@ -49,11 +37,6 @@ workflows:
   version: 2.1
   new-version:
     jobs:
-      - setup-workspace:
-          filters:
-            branches:
-              only:
-                - main
       - create-new-release:
           filters:
             branches:
