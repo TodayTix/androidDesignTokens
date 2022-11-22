@@ -8,11 +8,13 @@ apply plugin: 'maven-publish'
 android {
     compileSdk 32
     namespace = 'com.TodayTixGroup.designtokens'
+    publishNonDefault true
 
     defaultConfig {
         minSdk 21
         targetSdk 32
-        version "0.1.6"
+        version "0.1.13"
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -37,24 +39,26 @@ android {
         jvmTarget = '1.8'
     }
 
-    flavorDimensions "tokens"
+    flavorDimensions "retailer"
     productFlavors {
         todaytix {
-            dimension = "tokens"
+            dimension = "retailer"
         }
         goldstar {
-            dimension = "tokens"
+            dimension = "retailer"
         }
     }
 
     publishing {
-        singleVariant("todaytixDebug")
-        // TODO: when we do the work for multiple retailers, we need this
-        // to have goldstar and today be published under the same library
-//        multipleVariants("todaytix") {
-//            includeBuildTypeValues("debug", "release")
-//            includeFlavorDimensionAndValues("tokens", "todaytix")
-//        }
+        multipleVariants("todaytix") {
+            includeBuildTypeValues("release")
+            includeFlavorDimensionAndValues("retailer", "todaytix")
+        }
+
+        multipleVariants("goldstar") {
+            includeBuildTypeValues("release")
+            includeFlavorDimensionAndValues("retailer", "goldstar")
+        }
     }
 }
 
@@ -62,9 +66,15 @@ afterEvaluate {
     publishing {
         publications {
             todaytix(MavenPublication) {
-                from components.todaytixDebug
+                from components.todaytix
                 groupId = 'com.TodayTixGroup.designtokens'
-                artifactId = 'designTokens'
+                artifactId = 'designTokens-todaytix'
+                version = project.version
+            }
+            goldstar(MavenPublication) {
+                from components.goldstar
+                groupId = 'com.TodayTixGroup.designtokens'
+                artifactId = 'designTokens-goldstar'
                 version = project.version
             }
         }

@@ -17,6 +17,13 @@ references:
       name: Download Ruby dependencies
       command: make download-ruby-dependencies
 
+  set-git-user: &set-git-user
+    run:
+      name: Set Git User
+      command: |
+        git config user.email $GIT_USER_EMAIL
+        git config user.name $GIT_USER_NAME
+
 version: 2.1
 jobs:
   create-new-release:
@@ -29,6 +36,10 @@ jobs:
       - *restore-gems-cache
       - *download-ruby-dependencies
       - *save-gems-cache
+      - *set-git-user
+      - add_ssh_keys:
+          fingerprints:
+            - "53:16:94:96:22:d7:aa:f8:ab:69:a3:44:8b:b0:37:ff"
       - run:
           name: Create new release
           command: make create-release
