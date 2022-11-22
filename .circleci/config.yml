@@ -37,6 +37,9 @@ jobs:
       - *download-ruby-dependencies
       - *save-gems-cache
       - *set-git-user
+      - add_ssh_keys:
+          fingerprints:
+            - "53:16:94:96:22:d7:aa:f8:ab:69:a3:44:8b:b0:37:ff"
       - run:
           name: Create new release
           command: make create-release
