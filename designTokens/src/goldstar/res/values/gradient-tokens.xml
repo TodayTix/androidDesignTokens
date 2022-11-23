@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Do not edit directly
-  Generated on Tue, 22 Nov 2022 20:44:54 GMT
+  Generated on Wed, 23 Nov 2022 22:29:52 GMT
 -->
 <resources>
-	<color name="light_interactive_interactive_01_start_color">#DE2651</color>
-	<color name="light_interactive_interactive_01_end_color">#E12528</color>
-	<string name="light_interactive_interactive_01_angle">90</string>
-	<color name="light_tag_brand_background_start_color">#DE2651</color>
-	<color name="light_tag_brand_background_end_color">#E12528</color>
-	<string name="light_tag_brand_background_angle">90</string>
-	<color name="light_tag_brand_hover_start_color">#FF0F57</color>
-	<color name="light_tag_brand_hover_end_color">#FF1226</color>
-	<string name="light_tag_brand_hover_angle">90</string>
+	<color name="ttg_light_button_button_primary_start_color">#DE2651</color>
+	<color name="ttg_light_button_button_primary_end_color">#E12528</color>
+	<string name="ttg_light_button_button_primary_angle">90</string>
+	<color name="ttg_light_miscellaneous_interactive_start_color">#DE2651</color>
+	<color name="ttg_light_miscellaneous_interactive_end_color">#E12528</color>
+	<string name="ttg_light_miscellaneous_interactive_angle">90</string>
+	<color name="ttg_light_background_background_brand_start_color">#DE2651</color>
+	<color name="ttg_light_background_background_brand_end_color">#E12528</color>
+	<string name="ttg_light_background_background_brand_angle">90</string>
+	<color name="ttg_light_border_border_interactive_start_color">#DE2651</color>
+	<color name="ttg_light_border_border_interactive_end_color">#E12528</color>
+	<string name="ttg_light_border_border_interactive_angle">90</string>
+	<color name="ttg_light_icon_icon_brand_start_color">#DE2651</color>
+	<color name="ttg_light_icon_icon_brand_end_color">#E12528</color>
+	<string name="ttg_light_icon_icon_brand_angle">90</string>
+	<color name="ttg_light_tag_brand_background_start_color">#DE2651</color>
+	<color name="ttg_light_tag_brand_background_end_color">#E12528</color>
+	<string name="ttg_light_tag_brand_background_angle">90</string>
+	<color name="ttg_light_tag_brand_hover_start_color">#FF0F57</color>
+	<color name="ttg_light_tag_brand_hover_end_color">#FF1226</color>
+	<string name="ttg_light_tag_brand_hover_angle">90</string>
 	<color name="core_gradient_tangerine_start_color">#C32323</color>
 	<color name="core_gradient_tangerine_end_color">#FF8155</color>
 	<string name="core_gradient_tangerine_angle">90</string>
@@ -34,16 +46,4 @@
 	<color name="core_gradient_dragonfruit_start_color">#FF0F57</color>
 	<color name="core_gradient_dragonfruit_end_color">#FF1226</color>
 	<string name="core_gradient_dragonfruit_angle">90</string>
-	<color name="dark_interactive_interactive_01_start_color">#FF0F57</color>
-	<color name="dark_interactive_interactive_01_end_color">#FF1226</color>
-	<string name="dark_interactive_interactive_01_angle">90</string>
-	<color name="dark_background_ui_background_start_color">#282345</color>
-	<color name="dark_background_ui_background_end_color">#0B0B10</color>
-	<string name="dark_background_ui_background_angle">190</string>
-	<color name="dark_tag_brand_background_start_color">#FF0F57</color>
-	<color name="dark_tag_brand_background_end_color">#FF1226</color>
-	<string name="dark_tag_brand_background_angle">90</string>
-	<color name="dark_tag_brand_hover_start_color">#DE2651</color>
-	<color name="dark_tag_brand_hover_end_color">#E12528</color>
-	<string name="dark_tag_brand_hover_angle">90</string>
 </resources>
