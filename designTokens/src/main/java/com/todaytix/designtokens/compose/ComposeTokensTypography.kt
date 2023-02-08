@@ -6,167 +6,167 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.TodayTixGroup.designtokens.R
 
-val h1Sm = TextStyle(
+val globalH1Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 49.sp,
 	lineHeight = 1.25.sp
 )
-val h1Md = TextStyle(
+val globalH1Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 56.sp,
 	lineHeight = 1.25.sp
 )
-val h2Sm = TextStyle(
+val globalH2Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 39.sp
 )
-val h2Md = TextStyle(
+val globalH2Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 45.sp
 )
-val h3Sm = TextStyle(
+val globalH3Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 31.sp
 )
-val h3Md = TextStyle(
+val globalH3Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 36.sp
 )
-val h4Sm = TextStyle(
+val globalH4Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 25.sp
 )
-val h4Md = TextStyle(
+val globalH4Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 29.sp
 )
-val h5Sm = TextStyle(
+val globalH5Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 20.sp
 )
-val h5Md = TextStyle(
+val globalH5Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 23.sp
 )
-val h6Sm = TextStyle(
+val globalH6Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 20.sp,
 	lineHeight = 1.6.sp
 )
-val h6Md = TextStyle(
+val globalH6Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 23.sp,
 	lineHeight = 1.6.sp
 )
-val h7Sm = TextStyle(
+val globalH7Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 18.sp,
 	lineHeight = 1.6.sp
 )
-val h7Md = TextStyle(
+val globalH7Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 21.sp,
 	lineHeight = 1.6.sp
 )
-val bodyPrimaryRegularSmall = TextStyle(
+val globalBodyPrimaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 16.sp
 )
-val bodyPrimaryRegularMedium = TextStyle(
+val globalBodyPrimaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 18.sp
 )
-val bodyPrimaryBoldSmall = TextStyle(
+val globalBodyPrimaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 16.sp
 )
-val bodyPrimaryBoldMedium = TextStyle(
+val globalBodyPrimaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 18.sp
 )
-val bodySecondaryRegularSmall = TextStyle(
+val globalBodySecondaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp
 )
-val bodySecondaryRegularMedium = TextStyle(
+val globalBodySecondaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp
 )
-val bodySecondaryBoldSmall = TextStyle(
+val globalBodySecondaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp
 )
-val bodySecondaryBoldMedium = TextStyle(
+val globalBodySecondaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp
 )
-val bodyTertiaryRegularSmall = TextStyle(
+val globalBodyTertiaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp
 )
-val bodyTertiaryRegularMedium = TextStyle(
+val globalBodyTertiaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp
 )
-val bodyTertiaryBoldSmall = TextStyle(
+val globalBodyTertiaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp
 )
-val bodyTertiaryBoldMedium = TextStyle(
+val globalBodyTertiaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp
 )
-val buttonPrimary = TextStyle(
+val globalButtonPrimary = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp,
 	lineHeight = 1.25.sp
 )
-val buttonPillRegular = TextStyle(
+val globalButtonPillRegular = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
 	lineHeight = 1.25.sp
 )
-val buttonPillBold = TextStyle(
+val globalButtonPillBold = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
 	lineHeight = 1.25.sp
 )
-val textFieldLabel = TextStyle(
+val globalTextFieldLabel = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	lineHeight = 1.6.sp,
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp
 )
-val textFieldInput = TextStyle(
+val globalTextFieldInput = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.25.sp,
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp
 )
-val textFieldHelper = TextStyle(
+val globalTextFieldHelper = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	lineHeight = 1.6.sp,
 	fontSize = 12.sp,
