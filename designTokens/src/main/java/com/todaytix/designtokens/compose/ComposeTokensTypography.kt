@@ -1,87 +1,174 @@
 package com.todaytix.designtokens.compose
 
-import androidx.compose.ui.graphics.Brush
-val coreGradientTangerine = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xC32323),
-		Color(0xFF8155)
-	)
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.unit.sp
+import com.TodayTixGroup.designtokens.R
+
+val h1Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 49.sp,
+	lineHeight = 1.25.sp
 )
-val coreGradientSky = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x003576),
-		Color(0x1D95D9)
-	)
+val h1Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 56.sp,
+	lineHeight = 1.25.sp
 )
-val coreGradientRaspberry = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x800638),
-		Color(0xE11768)
-	)
+val h2Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 39.sp
 )
-val coreGradientGrape = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x390B89),
-		Color(0x943DD9)
-	)
+val h2Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 45.sp
 )
-val coreGradientMidnight = Brush.horizontalGradient(
-	colors = listOf(
-		Color(0x282345),
-		Color(0x0B0B10)
-	)
+val h3Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 31.sp
 )
-val coreGradientCandyapple = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xDE2651),
-		Color(0xE12528)
-	)
+val h3Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 36.sp
 )
-val coreGradientDragonfruit = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xFF0F57),
-		Color(0xFF1226)
-	)
+val h4Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 25.sp
 )
-val gradientTangerine = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xC32323),
-		Color(0xFF8155)
-	)
+val h4Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 29.sp
 )
-val gradientSky = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x003576),
-		Color(0x1D95D9)
-	)
+val h5Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 20.sp
 )
-val gradientRaspberry = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x800638),
-		Color(0xE11768)
-	)
+val h5Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.gellix_bold)),
+	fontSize = 23.sp
 )
-val gradientGrape = Brush.verticalGradient(
-	colors = listOf(
-		Color(0x390B89),
-		Color(0x943DD9)
-	)
+val h6Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 20.sp,
+	lineHeight = 1.6.sp
 )
-val gradientMidnight = Brush.horizontalGradient(
-	colors = listOf(
-		Color(0x282345),
-		Color(0x0B0B10)
-	)
+val h6Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 23.sp,
+	lineHeight = 1.6.sp
 )
-val gradientCandyapple = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xDE2651),
-		Color(0xE12528)
-	)
+val h7Sm = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 18.sp,
+	lineHeight = 1.6.sp
 )
-val gradientDragonfruit = Brush.verticalGradient(
-	colors = listOf(
-		Color(0xFF0F57),
-		Color(0xFF1226)
-	)
+val h7Md = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 21.sp,
+	lineHeight = 1.6.sp
+)
+val bodyPrimaryRegularSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 16.sp
+)
+val bodyPrimaryRegularMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 18.sp
+)
+val bodyPrimaryBoldSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 16.sp
+)
+val bodyPrimaryBoldMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 18.sp
+)
+val bodySecondaryRegularSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp
+)
+val bodySecondaryRegularMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 16.sp,
+	letterSpacing = 0.01.sp
+)
+val bodySecondaryBoldSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp
+)
+val bodySecondaryBoldMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 16.sp,
+	letterSpacing = 0.01.sp
+)
+val bodyTertiaryRegularSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 12.sp,
+	letterSpacing = 0.01.sp
+)
+val bodyTertiaryRegularMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp
+)
+val bodyTertiaryBoldSmall = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 12.sp,
+	letterSpacing = 0.01.sp
+)
+val bodyTertiaryBoldMedium = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp
+)
+val buttonPrimary = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 16.sp,
+	letterSpacing = 0.01.sp,
+	lineHeight = 1.25.sp
+)
+val buttonPillRegular = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp,
+	lineHeight = 1.25.sp
+)
+val buttonPillBold = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	fontSize = 14.sp,
+	letterSpacing = 0.01.sp,
+	lineHeight = 1.25.sp
+)
+val textFieldLabel = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
+	lineHeight = 1.6.sp,
+	fontSize = 12.sp,
+	letterSpacing = 0.01.sp
+)
+val textFieldInput = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.25.sp,
+	fontSize = 16.sp,
+	letterSpacing = 0.01.sp
+)
+val textFieldHelper = TextStyle(
+	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
+	lineHeight = 1.6.sp,
+	fontSize = 12.sp,
+	letterSpacing = 0.01.sp
 )
