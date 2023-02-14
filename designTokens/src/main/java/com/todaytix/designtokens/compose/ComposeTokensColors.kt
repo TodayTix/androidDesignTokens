@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Mon, 13 Feb 2023 18:43:07 GMT
+// Generated on Tue, 14 Feb 2023 16:53:54 GMT
 
 
 
@@ -54,13 +54,6 @@ object StyleDictionaryColor {
   val coreBlue70 = Color(0xff006acc)
   val coreBlue80 = Color(0xff005099)
   val coreBlue90 = Color(0xff193248)
-  val coreGradientCandyapple = Color(0xff000000)
-  val coreGradientDragonfruit = Color(0xff000000)
-  val coreGradientGrape = Color(0xff000000)
-  val coreGradientMidnight = Color(0xff000000)
-  val coreGradientRaspberry = Color(0xff000000)
-  val coreGradientSky = Color(0xff000000)
-  val coreGradientTangerine = Color(0xff000000)
   val coreGreen10 = Color(0xffe5f8eb)
   val coreGreen100 = Color(0xff00250a)
   val coreGreen20 = Color(0xffccf1d6)
@@ -111,13 +104,6 @@ object StyleDictionaryColor {
   val coreSeatMapHover = Color(0xff72a3c6)
   val coreSeatMapSelected = Color(0xff2679b5)
   val coreSeatMapUnavailable = Color(0xffe5e8eb)
-  val gradientCandyapple = Color(0xff000000)
-  val gradientDragonfruit = Color(0xff000000)
-  val gradientGrape = Color(0xff000000)
-  val gradientMidnight = Color(0xff000000)
-  val gradientRaspberry = Color(0xff000000)
-  val gradientSky = Color(0xff000000)
-  val gradientTangerine = Color(0xff000000)
   val green10 = Color(0xffe5f8eb)
   val green100 = Color(0xff00250a)
   val green20 = Color(0xffccf1d6)
