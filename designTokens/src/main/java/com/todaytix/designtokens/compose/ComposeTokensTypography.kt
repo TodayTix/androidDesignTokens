@@ -175,18 +175,18 @@ val textFieldHelper = TextStyle(
 val calendarDaysRow = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 12.sp,
-	letterSpacing = .sp,
+	letterSpacing = 0.sp,
 	lineHeight = 12.sp
 )
 val calendarDayPicker = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 18.sp,
-	letterSpacing = .sp,
+	letterSpacing = 0.sp,
 	lineHeight = 18.sp
 )
 val calendarPrice = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 12.sp,
-	letterSpacing = .sp,
+	letterSpacing = 0.sp,
 	lineHeight = 12.sp
 )

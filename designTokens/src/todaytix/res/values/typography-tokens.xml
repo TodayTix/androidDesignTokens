@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Do not edit directly
-  Generated on Thu, 02 Mar 2023 18:10:43 GMT
+  Generated on Wed, 08 Mar 2023 21:09:30 GMT
 -->
 <resources>
 	<style name="h1_sm">
@@ -174,18 +174,18 @@
 		<item name="fontFamily">@font/aktivgrotesk_bold</item>
 		<item name="android:lineSpacingMultiplier">1</item>
 		<item name="android:textSize">12sp</item>
-		<item name="android:letterSpacing"></item>
+		<item name="android:letterSpacing">0</item>
 	</style>
 	<style name="calendar_day_picker">
 		<item name="fontFamily">@font/aktivgrotesk_regular</item>
 		<item name="android:lineSpacingMultiplier">1</item>
 		<item name="android:textSize">18sp</item>
-		<item name="android:letterSpacing"></item>
+		<item name="android:letterSpacing">0</item>
 	</style>
 	<style name="calendar_price">
 		<item name="fontFamily">@font/aktivgrotesk_regular</item>
 		<item name="android:lineSpacingMultiplier">1</item>
 		<item name="android:textSize">12sp</item>
-		<item name="android:letterSpacing"></item>
+		<item name="android:letterSpacing">0</item>
 	</style>
 </resources>
