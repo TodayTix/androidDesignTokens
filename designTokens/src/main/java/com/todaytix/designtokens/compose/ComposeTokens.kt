@@ -6,8 +6,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.text.style.TextDecoration
 
 
-val fontFamiliesHeading = "gellix"
-val fontFamiliesBody = "aktivgrotesk"
+val fontFamiliesHeading = "Gellix"
+val fontFamiliesBody = "Aktiv Grotesk App"
 val lineHeightsHeading = 1.25
 val lineHeightsBodySmall = 1.6
 val lineHeightsBodyMedium = 1.6
