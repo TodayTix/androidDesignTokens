@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Mon, 13 Mar 2023 21:52:16 GMT
+// Generated on Wed, 15 Mar 2023 19:14:10 GMT
 
 
 
@@ -11,7 +11,7 @@ package com.todaytix.designtokens.compose;
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
-object Colors {
+object ComposeTokens {
   val coreBasic0 = Color(0xffffffff)
   val coreBasic10 = Color(0xffeaeaec)
   val coreBasic100 = Color(0xff0b0b10)
