@@ -3,133 +3,133 @@ package com.todaytix.designtokens.compose
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Brush
 
-val lightButtonButtonPrimary = Brush.verticalGradient(
+val lightButtonButtonPrimary = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightMiscellaneousInteractive = Brush.verticalGradient(
+val lightMiscellaneousInteractive = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightBackgroundBackgroundBrand = Brush.verticalGradient(
+val lightBackgroundBackgroundBrand = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightBorderBorderInteractive = Brush.verticalGradient(
+val lightBorderBorderInteractive = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightIconIconBrand = Brush.verticalGradient(
+val lightIconIconBrand = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightTagBrandBackground = Brush.verticalGradient(
+val lightTagBrandBackground = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val lightTagBrandHover = Brush.verticalGradient(
+val lightTagBrandHover = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkButtonButtonPrimary = Brush.verticalGradient(
+val darkButtonButtonPrimary = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkMiscellaneousInteractive = Brush.verticalGradient(
+val darkMiscellaneousInteractive = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkBackgroundBackground = Brush.horizontalGradient(
+val darkBackgroundBackground = Brush.verticalGradient(
 	colors = listOf(
 		Color(0xFF282345),
 		Color(0xFF0B0B10)
 	)
 )
-val darkBackgroundBackgroundBrand = Brush.verticalGradient(
+val darkBackgroundBackgroundBrand = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkBorderBorderInteractive = Brush.verticalGradient(
+val darkBorderBorderInteractive = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkIconIconBrand = Brush.verticalGradient(
+val darkIconIconBrand = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val darkTagBrandBackground = Brush.verticalGradient(
+val darkTagBrandBackground = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val darkTagBrandHover = Brush.verticalGradient(
+val darkTagBrandHover = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
 	)
 )
-val coreGradientTangerine = Brush.verticalGradient(
+val coreGradientTangerine = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFC32323),
 		Color(0xFFFF8155)
 	)
 )
-val coreGradientSky = Brush.verticalGradient(
+val coreGradientSky = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFF003576),
 		Color(0xFF1D95D9)
 	)
 )
-val coreGradientRaspberry = Brush.verticalGradient(
+val coreGradientRaspberry = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFF800638),
 		Color(0xFFE11768)
 	)
 )
-val coreGradientGrape = Brush.verticalGradient(
+val coreGradientGrape = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFF390B89),
 		Color(0xFF943DD9)
 	)
 )
-val coreGradientMidnight = Brush.horizontalGradient(
+val coreGradientMidnight = Brush.verticalGradient(
 	colors = listOf(
 		Color(0xFF282345),
 		Color(0xFF0B0B10)
 	)
 )
-val coreGradientCandyapple = Brush.verticalGradient(
+val coreGradientCandyapple = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
 		Color(0xFFE12528)
 	)
 )
-val coreGradientDragonfruit = Brush.verticalGradient(
+val coreGradientDragonfruit = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFFF0F57),
 		Color(0xFFFF1226)
