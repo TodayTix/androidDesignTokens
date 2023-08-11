@@ -5,38 +5,38 @@ import androidx.compose.ui.graphics.Brush
 
 val lightButtonButtonPrimary = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightMiscellaneousInteractive = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightBackgroundBackgroundBrand = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightBorderBorderInteractive = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightIconIconBrand = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightTagBrandBackground = Brush.horizontalGradient(
 	colors = listOf(
-		Color(0xFFDE2651),
-		Color(0xFFE12528)
+		Color(0xFFFF0F57),
+		Color(0xFFFF1226)
 	)
 )
 val lightTagBrandHover = Brush.horizontalGradient(

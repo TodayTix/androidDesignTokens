@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 14 Apr 2023 15:51:09 GMT
+  Generated on Fri, 11 Aug 2023 19:22:56 GMT
 -->
 <resources>
   <color name="light_text_text_primary">#ff0b0b10</color>
@@ -13,8 +13,8 @@
   <color name="light_text_text_discount">#ffff1226</color>
   <color name="light_text_text_error">#ff990b17</color>
   <color name="light_text_text_inverse">#ffffffff</color>
-  <color name="light_text_text_disabled">#ff96969f</color>
-  <color name="light_text_text_on_color_disabled">#ffeaeaec</color>
+  <color name="light_text_text_disabled">#ffababb2</color>
+  <color name="light_text_text_on_color_disabled">#ffd5d5d9</color>
   <color name="light_link_link_primary">#ff0b0b10</color>
   <color name="light_link_link_primary_hover">#ffff1226</color>
   <color name="light_link_link_inverse">#ffffffff</color>
@@ -27,11 +27,8 @@
   <color name="light_support_inverse_support_warning">#ffe86427</color>
   <color name="light_support_inverse_support_info">#ff168fff</color>
   <color name="light_button_button_primary_hover">#ff990b17</color>
-  <color name="light_button_button_secondary">#4d0b0b10</color>
-  <color name="light_button_button_secondary_hover">#ffababb2</color>
-  <color name="light_button_button_tertiary">#ffc0c0c6</color>
-  <color name="light_button_button_tertiary_hover">#ff3d3c51</color>
-  <color name="light_button_button_tertiary_active">#ff0b0b10</color>
+  <color name="light_button_button_secondary">#ffc0c0c6</color>
+  <color name="light_button_button_secondary_hover">#1a0b0b10</color>
   <color name="light_button_button_disabled">#ffd5d5d9</color>
   <color name="light_miscellaneous_overlay">#cc0b0b10</color>
   <color name="light_background_background">#ffffffff</color>
@@ -45,19 +42,21 @@
   <color name="light_layer_layer_hover_02">#ffd5d5d9</color>
   <color name="light_layer_layer_hover_03">#ffd5d5d9</color>
   <color name="light_layer_layer_selected_inverse">#ff0b0b10</color>
-  <color name="light_layer_layer_transparent">#4d0b0b10</color>
+  <color name="light_layer_layer_transparent">#6617161f</color>
   <color name="light_layer_layer_transparent_hover">#ffababb2</color>
-  <color name="light_border_border_subtle_01">#ffd5d5d9</color>
+  <color name="light_layer_layer_disabled">#ffd5d5d9</color>
+  <color name="light_border_border_subtle_01">#ffc0c0c6</color>
   <color name="light_border_border_strong_01">#ff96969f</color>
   <color name="light_border_border_inverse">#ff0b0b10</color>
   <color name="light_border_border_disabled">#ffc0c0c6</color>
+  <color name="light_border_border_hover">#ff0b0b10</color>
   <color name="light_icon_icon_primary">#ff0b0b10</color>
   <color name="light_icon_icon_secondary">#ff646374</color>
   <color name="light_icon_icon_on_color">#ffffffff</color>
   <color name="light_icon_icon_tab">#ff646374</color>
-  <color name="light_icon_icon_on_color_disabled">#ff96969f</color>
-  <color name="light_icon_icon_disabled">#ff96969f</color>
+  <color name="light_icon_icon_disabled">#ffababb2</color>
   <color name="light_icon_icon_inverse">#ffffffff</color>
+  <color name="light_icon_icon_on_color_disabled">#ffc0c0c6</color>
   <color name="light_field_field_01">#ffffffff</color>
   <color name="light_field_field_02">#4d0b0b10</color>
   <color name="light_focus_focus">#ff0085ff</color>
@@ -84,14 +83,11 @@
   <color name="light_tag_gray_hover">#ffd5d5d9</color>
   <color name="light_tag_brand_text">#ffffffff</color>
   <color name="light_tag_disabled_background">#ffd5d5d9</color>
-  <color name="light_notifications_info_background">#ffe5f3ff</color>
-  <color name="light_notifications_info_border">#ffcce7ff</color>
-  <color name="light_notifications_success_background">#ffccf1d6</color>
-  <color name="light_notifications_support_success_border">#ffccf1d6</color>
-  <color name="light_notifications_error_background">#ffffe7ee</color>
-  <color name="light_notifications_error_border">#ffffcfdd</color>
-  <color name="light_notifications_warning_background">#fffcf2eb</color>
-  <color name="light_notifications_warning_border">#fffcddc7</color>
+  <color name="light_notifications_toast_background">#ff0b0b10</color>
+  <color name="light_notifications_toast_background_inverse">#ffffffff</color>
+  <color name="light_notifications_inline_background">#ffeaeaec</color>
+  <color name="light_notifications_inline_background_02">#ffd5d5d9</color>
+  <color name="light_notifications_inline_error">#ffffe7ee</color>
   <color name="light_transparent_transparent">#ffffffff</color>
   <color name="light_skeleton_skeleton_background">#ffeaeaec</color>
   <color name="light_skeleton_skeleton_element">#ffc0c0c6</color>
@@ -117,11 +113,8 @@
   <color name="dark_support_inverse_support_warning">#ffbf4815</color>
   <color name="dark_support_inverse_support_info">#ff0085ff</color>
   <color name="dark_button_button_primary_hover">#ffcc0e1e</color>
-  <color name="dark_button_button_secondary">#ff3d3c51</color>
-  <color name="dark_button_button_secondary_hover">#ff646374</color>
-  <color name="dark_button_button_tertiary">#ffffffff</color>
-  <color name="dark_button_button_tertiary_hover">#ffababb2</color>
-  <color name="dark_button_button_tertiary_active">#ffffffff</color>
+  <color name="dark_button_button_secondary">#ff646374</color>
+  <color name="dark_button_button_secondary_hover">#4dffffff</color>
   <color name="dark_button_button_disabled">#ff2c2c3f</color>
   <color name="dark_miscellaneous_overlay">#cc0b0b10</color>
   <color name="dark_background_background_inverse">#ffeaeaec</color>
@@ -136,12 +129,12 @@
   <color name="dark_layer_layer_selected_inverse">#ffffffff</color>
   <color name="dark_layer_layer_transparent">#4d0b0b10</color>
   <color name="dark_layer_layer_transparent_hover">#ff2c2c3f</color>
-  <color name="dark_border_border_subtle_01">#ff646374</color>
+  <color name="dark_border_border_subtle_01">#ff3d3c51</color>
   <color name="dark_border_border_strong_01">#ff96969f</color>
   <color name="dark_border_border_inverse">#ffffffff</color>
   <color name="dark_border_border_disabled">#ff96969f</color>
   <color name="dark_icon_icon_primary">#ffffffff</color>
-  <color name="dark_icon_icon_secondary">#ff2c2c3f</color>
+  <color name="dark_icon_icon_secondary">#ffd5d5d9</color>
   <color name="dark_icon_icon_on_color">#ffffffff</color>
   <color name="dark_icon_icon_tab">#ff96969f</color>
   <color name="dark_icon_icon_on_color_disabled">#ff646374</color>
@@ -173,17 +166,14 @@
   <color name="dark_tag_gray_hover">#ffababb2</color>
   <color name="dark_tag_brand_text">#ffffffff</color>
   <color name="dark_tag_disabled_background">#ffd5d5d9</color>
-  <color name="dark_notifications_info_background">#ff2c2c3f</color>
-  <color name="dark_notifications_info_border">#ff73bcff</color>
-  <color name="dark_notifications_success_background">#ff2c2c3f</color>
-  <color name="dark_notifications_support_success_border">#ff74e092</color>
-  <color name="dark_notifications_error_background">#ff2c2c3f</color>
-  <color name="dark_notifications_error_border">#ffff6f9a</color>
-  <color name="dark_notifications_warning_background">#ff2c2c3f</color>
-  <color name="dark_notifications_warning_border">#fffcbc97</color>
+  <color name="dark_notifications_toast_background">#ffffffff</color>
+  <color name="dark_notifications_toast_background_inverse">#ff0b0b10</color>
+  <color name="dark_notifications_inline_background">#ff2c2c3f</color>
+  <color name="dark_notifications_inline_background_02">#ff17161f</color>
+  <color name="dark_notifications_inline_error">#ff66070f</color>
   <color name="dark_transparent_transparent">#ffffffff</color>
-  <color name="dark_skeleton_skeleton_background">#ff17161f</color>
-  <color name="dark_skeleton_skeleton_element">#ff3d3c51</color>
+  <color name="dark_skeleton_skeleton_background">#ff3d3c51</color>
+  <color name="dark_skeleton_skeleton_element">#ff646374</color>
   <string name="font_families_heading">Gellix</string>
   <string name="font_families_body">Aktiv Grotesk App</string>
   <dimen name="line_heights_heading">1.25</dimen>

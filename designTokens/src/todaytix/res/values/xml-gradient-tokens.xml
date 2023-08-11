@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Do not edit directly
-  Generated on Fri, 14 Apr 2023 15:51:09 GMT
+  Generated on Fri, 11 Aug 2023 19:22:56 GMT
 -->
 <resources>
-	<color name="light_button_button_primary_start_color">#DE2651</color>
-	<color name="light_button_button_primary_end_color">#E12528</color>
+	<color name="light_button_button_primary_start_color">#FF0F57</color>
+	<color name="light_button_button_primary_end_color">#FF1226</color>
 	<string name="light_button_button_primary_angle">90</string>
-	<color name="light_miscellaneous_interactive_start_color">#DE2651</color>
-	<color name="light_miscellaneous_interactive_end_color">#E12528</color>
+	<color name="light_miscellaneous_interactive_start_color">#FF0F57</color>
+	<color name="light_miscellaneous_interactive_end_color">#FF1226</color>
 	<string name="light_miscellaneous_interactive_angle">90</string>
-	<color name="light_background_background_brand_start_color">#DE2651</color>
-	<color name="light_background_background_brand_end_color">#E12528</color>
+	<color name="light_background_background_brand_start_color">#FF0F57</color>
+	<color name="light_background_background_brand_end_color">#FF1226</color>
 	<string name="light_background_background_brand_angle">90</string>
-	<color name="light_border_border_interactive_start_color">#DE2651</color>
-	<color name="light_border_border_interactive_end_color">#E12528</color>
+	<color name="light_border_border_interactive_start_color">#FF0F57</color>
+	<color name="light_border_border_interactive_end_color">#FF1226</color>
 	<string name="light_border_border_interactive_angle">90</string>
-	<color name="light_icon_icon_brand_start_color">#DE2651</color>
-	<color name="light_icon_icon_brand_end_color">#E12528</color>
+	<color name="light_icon_icon_brand_start_color">#FF0F57</color>
+	<color name="light_icon_icon_brand_end_color">#FF1226</color>
 	<string name="light_icon_icon_brand_angle">90</string>
-	<color name="light_tag_brand_background_start_color">#DE2651</color>
-	<color name="light_tag_brand_background_end_color">#E12528</color>
+	<color name="light_tag_brand_background_start_color">#FF0F57</color>
+	<color name="light_tag_brand_background_end_color">#FF1226</color>
 	<string name="light_tag_brand_background_angle">90</string>
 	<color name="light_tag_brand_hover_start_color">#FF0F57</color>
 	<color name="light_tag_brand_hover_end_color">#FF1226</color>
