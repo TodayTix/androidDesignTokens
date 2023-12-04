@@ -28,7 +28,7 @@ version: 2.1
 jobs:
   create-new-release:
     docker:
-      - image: circleci/android:api-30
+      - image: cimg/android:2023.11.1
     environment:
       GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:MaxPermSize=1024m -Xms512m -XX:+HeapDumpOnOutOfMemoryError"'
     steps:
