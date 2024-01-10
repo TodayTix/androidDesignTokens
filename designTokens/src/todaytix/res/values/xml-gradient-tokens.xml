@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Do not edit directly
-  Generated on Thu, 04 Jan 2024 21:22:15 GMT
+  Generated on Wed, 10 Jan 2024 22:00:20 GMT
 -->
 <resources>
 	<color name="light_button_button_primary_start_color">#FF0F57</color>
@@ -64,6 +64,9 @@
 	<color name="core_gradient_midnight_start_color">#282345</color>
 	<color name="core_gradient_midnight_end_color">#0B0B10</color>
 	<string name="core_gradient_midnight_angle">190</string>
+	<color name="core_gradient_dusk_start_color">#463C51</color>
+	<color name="core_gradient_dusk_end_color">#21202D</color>
+	<string name="core_gradient_dusk_angle">90</string>
 	<color name="core_gradient_candyapple_start_color">#DE2651</color>
 	<color name="core_gradient_candyapple_end_color">#E12528</color>
 	<string name="core_gradient_candyapple_angle">90</string>

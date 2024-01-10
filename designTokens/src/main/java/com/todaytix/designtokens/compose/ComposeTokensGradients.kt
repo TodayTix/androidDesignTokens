@@ -123,6 +123,12 @@ val coreGradientMidnight = Brush.verticalGradient(
 		Color(0xFF0B0B10)
 	)
 )
+val coreGradientDusk = Brush.horizontalGradient(
+	colors = listOf(
+		Color(0xFF463C51),
+		Color(0xFF21202D)
+	)
+)
 val coreGradientCandyapple = Brush.horizontalGradient(
 	colors = listOf(
 		Color(0xFFDE2651),
