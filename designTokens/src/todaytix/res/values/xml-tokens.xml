@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 28 Mar 2024 19:41:01 GMT
+  Generated on Thu, 10 Oct 2024 00:31:47 GMT
 -->
 <resources>
   <color name="light_text_text_primary">#ff0b0b10</color>
@@ -176,9 +176,9 @@
   <color name="dark_skeleton_skeleton_element">#ff646374</color>
   <string name="font_families_heading">Gellix</string>
   <string name="font_families_body">Aktiv Grotesk App</string>
-  <dimen name="line_heights_heading">1.25</dimen>
-  <dimen name="line_heights_body_small">1.6</dimen>
-  <dimen name="line_heights_body_medium">1.6</dimen>
+  <dimen name="line_heights_heading">1.15</dimen>
+  <dimen name="line_heights_body_small">1.45</dimen>
+  <dimen name="line_heights_body_medium">1.45</dimen>
   <dimen name="line_heights_text_field">1.25</dimen>
   <dimen name="letter_spacing_default">0</dimen>
   <dimen name="letter_spacing_increased">0.01</dimen>

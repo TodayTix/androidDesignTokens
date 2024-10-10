@@ -9,12 +9,12 @@ import com.TodayTixGroup.designtokens.R
 val h1Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 49.sp,
-	lineHeight = 61.3.sp
+	lineHeight = 56.4.sp
 )
 val h1Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
 	fontSize = 56.sp,
-	lineHeight = 70.sp
+	lineHeight = 64.4.sp
 )
 val h2Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.gellix_bold)),
@@ -51,90 +51,90 @@ val h5Md = TextStyle(
 val h6Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 20.sp,
-	lineHeight = 32.sp
+	lineHeight = 29.sp
 )
 val h6Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 23.sp,
-	lineHeight = 36.8.sp
+	lineHeight = 33.4.sp
 )
 val h7Sm = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 18.sp,
-	lineHeight = 28.8.sp
+	lineHeight = 26.1.sp
 )
 val h7Md = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 21.sp,
-	lineHeight = 33.6.sp
+	lineHeight = 30.5.sp
 )
 val bodyPrimaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 16.sp,
-	lineHeight = 25.6.sp
+	lineHeight = 23.2.sp
 )
 val bodyPrimaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 18.sp,
-	lineHeight = 28.8.sp
+	lineHeight = 26.1.sp
 )
 val bodyPrimaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 16.sp,
-	lineHeight = 25.6.sp
+	lineHeight = 23.2.sp
 )
 val bodyPrimaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 18.sp,
-	lineHeight = 28.8.sp
+	lineHeight = 26.1.sp
 )
 val bodySecondaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 22.4.sp
+	lineHeight = 20.3.sp
 )
 val bodySecondaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 25.6.sp
+	lineHeight = 23.2.sp
 )
 val bodySecondaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 22.4.sp
+	lineHeight = 20.3.sp
 )
 val bodySecondaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 16.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 25.6.sp
+	lineHeight = 23.2.sp
 )
 val bodyTertiaryRegularSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 19.2.sp
+	lineHeight = 17.4.sp
 )
 val bodyTertiaryRegularMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 22.4.sp
+	lineHeight = 20.3.sp
 )
 val bodyTertiaryBoldSmall = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 19.2.sp
+	lineHeight = 17.4.sp
 )
 val bodyTertiaryBoldMedium = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 14.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 22.4.sp
+	lineHeight = 20.3.sp
 )
 val buttonPrimary = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
@@ -158,7 +158,7 @@ val textFieldLabel = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 19.2.sp
+	lineHeight = 17.4.sp
 )
 val textFieldInput = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
@@ -170,7 +170,7 @@ val textFieldHelper = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_regular)),
 	fontSize = 12.sp,
 	letterSpacing = 0.01.sp,
-	lineHeight = 19.2.sp
+	lineHeight = 17.4.sp
 )
 val calendarDaysRow = TextStyle(
 	fontFamily = FontFamily(Font(R.font.aktivgrotesk_bold)),

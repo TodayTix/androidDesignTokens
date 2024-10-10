@@ -8,9 +8,9 @@ import androidx.compose.ui.text.style.TextDecoration
 
 val fontFamiliesHeading = "Gellix"
 val fontFamiliesBody = "Aktiv Grotesk App"
-val lineHeightsHeading = 1.25
-val lineHeightsBodySmall = 1.6
-val lineHeightsBodyMedium = 1.6
+val lineHeightsHeading = 1.15
+val lineHeightsBodySmall = 1.45
+val lineHeightsBodyMedium = 1.45
 val lineHeightsTextField = 1.25
 val letterSpacingDefault = 0.sp
 val letterSpacingIncreased = 0.01.sp
